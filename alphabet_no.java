@@ -10,7 +10,7 @@ public class alphabet_no
         System.out.print("Enter an Alphabet : ");
         ch = scan.next().charAt(0);
 		
-        if((ch=='a' && ch=='A') || (ch=='z' && ch=='Z'))
+        if((ch>='a' && ch>='A') || (ch<='z' && ch<='Z'))
         {
             System.out.print("This is an Alphabet");
         }
