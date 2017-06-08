@@ -10,6 +10,6 @@ for(int i=0;i<=n;i++)
 {
 sum=sum+i;
 }
-System.out.print(i+"is :"+sum);
+System.out.print(sum);
 }
 }
