@@ -4,9 +4,8 @@ public class ArmstrongNumberWithinRange
 public static void main(String args[]) 
             { 
                Scanner s=new Scanner(System.in); 
-               System.out.print("Enter the Range :"); 
                int range=s.nextInt(); 
-               int a,b,c,sum,count=0; 
+               int a,b,c,sum,c1=0; 
                b=1; 
                while(b<=range) 
                     { 
@@ -21,11 +20,11 @@ public static void main(String args[])
                          if(sum==b) 
                        { 
                          System.out.println(b+" is a Armstrong Number"); 
-                         count=count+1; 
+                         c1=c1+1; 
                        } 
                           b++; 
                      } 
-System.out.println("Total Armstrong Number Present With in that Range is "+count); 
+                        System.out.println("Total Armstrong Number Present With in that Range is "+c1); 
                 } 
 } 
 
