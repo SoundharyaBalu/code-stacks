@@ -2,7 +2,8 @@
  class repeat_char
  {
  public static void main(String[] args) {
-        String str="programming"; 
+  Scanner sc=new Scanner(System.in);     
+  String str=sc.next();
         int c=0;
         String nr="",r="";
         for(int i=0;i<str.length();i++)
