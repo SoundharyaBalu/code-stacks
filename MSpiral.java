@@ -1,20 +1,20 @@
-class MatrixSpiral {
+class MSpiral {
     public static void main(String[] args)
     {
-        int [][]matrix = {
+        int [][]mat = {
                 {1,2,3,4},
                 {5,6,7,8},
                 {9,10,11,12},
                 {13,14,15,16}
         };
-        printSpiral(matrix);
+        printSpiral(mat);
     }
-    public static void printSpiral(int[][] matrix)
+    public static void printSpiral(int[][] mat)
     {
         int top = 0;
-        int bottom = matrix.length-1; 
+        int bottom = mat.length-1; 
         int left = 0;
-        int right = matrix[0].length-1;
+        int right = mat[0].length-1;
 
         int direction = 0;
 
@@ -25,7 +25,7 @@ class MatrixSpiral {
             {
                 for( i = left; i <= right; i++ )
                 {
-                    System.out.print( matrix[top][i]+ " " );
+                    System.out.print( mat[top][i]+ " " );
                 }
                 top++;
                 direction = 1;
@@ -34,7 +34,7 @@ class MatrixSpiral {
             {
                 for( i = top; i <= bottom; i++ )
                 {
-                    System.out.print( matrix[i][right] + " " );
+                    System.out.print( mat[i][right] + " " );
                 }
                 right--;
                 direction = 2;
@@ -43,7 +43,7 @@ class MatrixSpiral {
             {
                 for( i = right; i >= left; i-- )
                 {
-                    System.out.print(matrix[bottom][i] + " ");
+                    System.out.print(mat[bottom][i] + " ");
                 }
                 bottom--;
                 direction = 3;
@@ -52,7 +52,7 @@ class MatrixSpiral {
             {
                 for( i = bottom; i >= top; i-- )
                 {
-                    System.out.print( matrix[i][left] + " " );
+                    System.out.print( mat[i][left] + " " );
                 }
                 left++;
                 direction = 0;
