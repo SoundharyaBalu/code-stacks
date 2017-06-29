@@ -1,9 +1,9 @@
 import java.util.*;
 class fav_number
 {
-public static void main(String args)
+public static void main(String args[])
 {
-Scanner sc=new Scanner(String args[])
+Scanner sc=new Scanner(System.in);
 String s=sc.next();
 String ss[]=new String[4];
 int m=5,n=10,x=0,y=0;
