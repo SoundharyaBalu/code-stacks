@@ -9,7 +9,8 @@ String ss[]=new String[4];
 int m=5,n=10,x=0,y=0;
 while(n<=s.length())
 {
-ss[]=substring(m,n).split("");
+  for(int i=0;i<4;i++){
+ss[]=substring(m,n).split("");}
 x=0;
 for(int i=0;i<4;i++)
 {
