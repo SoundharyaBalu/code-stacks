@@ -3,20 +3,20 @@ public class Uunique
 {
     public static void main(String args[])
     {
-        int t=0,i;
-        Scanner in=new Scanner(System.in);
-        int n=in.nextInt();
-        int a[]=new int[n];
-        for(i=0;i<n;i++)
+        int temp=0;
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int arr[]=new int[n];
+        for(int i=0;i<n;i++)
         {
-            a[i]=in.nextInt();
+            arr[i]=sc.nextInt();
         }
-        for(i=0;i<n;i++)
+        for(int i=0;i<n;i++)
         {
-            t=t^a[i];
+            temp=temp^arr[i];
                
         }
-         System.out.println(t);
+         System.out.println(temp);
     }
     
 }
