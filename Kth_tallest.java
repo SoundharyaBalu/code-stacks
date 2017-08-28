@@ -12,7 +12,7 @@ class Kth_tallest
     int k=sc.nextInt();
     if(k<50&&k>0)
     {
-        System.out.println(k+"th Tallest : "+arr[arr.length-k]);
+        System.out.println(k+"th Tallest : "+a[a.length-k]);
     }
     else
     {
