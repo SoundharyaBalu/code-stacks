@@ -5,9 +5,9 @@ class strrev
 	{
 		Scanner sc=new Scanner(System.in);
 		HashSet<Character> hs=new HashSet<Character>();
-		System.out.println("ENTER THE STRING");
-		String s=sc.nextLine();
-		char[] ch=s.toCharArray();
+		//System.out.println("ENTER THE STRING");
+		String ss=sc.nextLine();
+		char[] ch=ss.toCharArray();
 		for(char c:ch)
 		{
 			hs.add(c);
